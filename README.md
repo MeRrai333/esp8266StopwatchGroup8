@@ -2,6 +2,11 @@ Mini project Stopwatch IoT subject
 
 ![alt text](https://github.com/MeRrai333/esp8266StopwatchGroup8/blob/main/image/Image.jpg?raw=true)
 
+===== Function =====
+1. Stopwatch
+2. Countdown
+3. Countdow with Relay
+
 ===== Material =====
 1. ESP8266 1 unit
 2. LCD i2C 16x2 1 unit 
