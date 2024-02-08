@@ -15,7 +15,7 @@ Mini project Stopwatch IoT subject
 5. resistor 220Ohm 1 unit
 6. Relay module 3.3V 1 unit
 
-![alt text](https://github.com/MeRrai333/esp8266StopwatchGroup8/blob/main/image/Schematic.JPG?raw=true)
+![alt text](https://github.com/MeRrai333/esp8266StopwatchGroup8/blob/main/image/SchematicCircuit.JPG?raw=true)
 
 ===== State work ======
 TIMERSTOPSTATE<br>
