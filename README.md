@@ -17,7 +17,7 @@ Mini project Stopwatch IoT subject
 
 ![alt text](https://github.com/MeRrai333/esp8266StopwatchGroup8/blob/main/image/SchematicCircuit.JPG?raw=true)
 
-===== State work ======
+===== State work ======<br>
 TIMERSTOPSTATE<br>
   &emsp;D5: Start<br>
   &emsp;D6: Reset/ กดค้าง 2 วิ(LED ติด) เปลี่ยน Mode<br>
