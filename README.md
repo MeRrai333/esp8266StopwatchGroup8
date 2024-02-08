@@ -13,27 +13,27 @@ Mini project Stopwatch IoT subject
 ![alt text](https://github.com/MeRrai333/esp8266StopwatchGroup8/blob/main/image/Schematic.JPG?raw=true)
 
 ===== State work ======
-TIMERSTOPSTATE
-  D5: Start
-  D6: Reset/ กดค้าง 2 วิ(LED ติด) เปลี่ยน Mode
-TIMERSTATE
-  D5: Stop
-COUNTDOWNSETSTATE
-  D5: Inces.
-  D6: Deces. / กดค้าง 2 วิ(LED ติด) เปลี่ยนหลัก เปลี่ยนจนครบจะไป Mode ถัดไป / กดค้าง 4 วิ(LED ดับ) RESET กลับไป TIMER
-COUNTDOWNSTOPSTATE
-  D5: Start
-  D6: Reset ตั้งค่าใหม่/ กดค้าง 2 วิ(LED ติด) Reset กลับไป TIMER/ กดค้าง 4 วิ(LED ดับ) ไป SETRELAYSTATE
-COUNTDOWNSTARTSTATE
-  D5: Stop
-  เวลาหมด: ไป COUNTDOWNFINISHSTATE
-COUNTDOWNFINISHSTATE
-  D6: Reset ตั้งค่าใหม่/ กดค้าง 2 วิ(LED ติด) Reset กลับไป TIMER
-SETRELAYSTATE
-  D5: เปลี่ยน Mode (OFF, ON->OFF, OFF->ON)
-D6: ไป COUNTDOWNSTOPSTATE
-RESET
-  reset แล้วกลับไป state หลักเดิม
+TIMERSTOPSTATE<br>
+  D5: Start<br>
+  D6: Reset/ กดค้าง 2 วิ(LED ติด) เปลี่ยน Mode<br>
+TIMERSTATE<br>
+  D5: Stop<br>
+COUNTDOWNSETSTATE<br>
+  D5: Inces.<br>
+  D6: Deces. / กดค้าง 2 วิ(LED ติด) เปลี่ยนหลัก เปลี่ยนจนครบจะไป Mode ถัดไป / กดค้าง 4 วิ(LED ดับ) RESET กลับไป TIMER<br>
+COUNTDOWNSTOPSTATE<br>
+  D5: Start<br>
+  D6: Reset ตั้งค่าใหม่/ กดค้าง 2 วิ(LED ติด) Reset กลับไป TIMER/ กดค้าง 4 วิ(LED ดับ) ไป SETRELAYSTATE<br>
+COUNTDOWNSTARTSTATE<br>
+  D5: Stop<br>
+  เวลาหมด: ไป COUNTDOWNFINISHSTATE<br>
+COUNTDOWNFINISHSTATE<br>
+  D6: Reset ตั้งค่าใหม่/ กดค้าง 2 วิ(LED ติด) Reset กลับไป TIMER<br>
+SETRELAYSTATE<br>
+  D5: เปลี่ยน Mode (OFF, ON->OFF, OFF->ON)<br>
+D6: ไป COUNTDOWNSTOPSTATE<br>
+RESET<br>
+  reset แล้วกลับไป state หลักเดิม<br>
 
 ![alt text](https://github.com/MeRrai333/esp8266StopwatchGroup8/blob/main/image/State.JPG?raw=true)
 
